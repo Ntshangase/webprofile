@@ -1,8 +1,11 @@
 
+import Profile from "./profile";
 
 function App() {
   return (
-    null
+    <>
+      < Profile />
+    </>
   );
 }
 
