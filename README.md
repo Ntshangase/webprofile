@@ -68,3 +68,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+#Helpful sources
+-these are the reasources i used during the making of this app.
+
+1.when i was havng a hard time getting my image to display, no error messing but it just wasn't loading up correctly since yesterday. Started making progress when i zoned in on the problem and knew what i wanted to fix.
+https://stackoverflow.com/questions/34582405/react-wont-load-local-images
