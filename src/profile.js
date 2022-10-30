@@ -8,8 +8,16 @@ export default function Profile() {
     <div>
       <center>
         <h1> Hello world</h1>
-        <img src={logo} alt="still loading"/>
-        </center>
+        <img id="profile__img" src={logo} alt="profile__img"/>
+        
+        <p> 
+          <p> <a id='btn__zuri' href='https://training.zuri.team/' target="blank">Zuri training</a> </p> 
+          <p> <a id='books' href='http://books.zuri.team/' target="blank">Zuri books</a> </p>
+          <p> <a id='book__python' href='http://books.zuri.team/python-for-beginners?ref_id=Zulu' target="blank">Zuri bookshop</a> </p>
+          <p> <a id='pitch' href='https://background.zuri.team/' target="blank">Zuri background</a> </p>
+          <p> <a id='book__design' href='https://books.zuri.team/design-rules' target="blank">Zuri freeBooks</a> </p>
+        </p>
+      </center>
     </div>
   )
 }
