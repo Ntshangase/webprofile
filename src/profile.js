@@ -11,7 +11,7 @@ export default function Profile() {
         <h1 id='test'> Hello world</h1>
         <img id="profile__img" src={logo} alt="profile__img"/>
         <p>
-          <h3 id='twitter'> @elonmusk </h3>
+        <a id='twitter' href='https://twitter.com/elonmusk' target="blank">@elonmusk</a>
           <h3 id='slack'> Zulu </h3>
         </p>
         <p> 
