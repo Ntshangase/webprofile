@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '/home/mntwana/webprofile/src/picture.jpg';
+import './style.css';
 
 console.log(logo);
 
@@ -7,7 +8,7 @@ export default function Profile() {
   return (
     <div>
       <center>
-        <h1> Hello world</h1>
+        <h1 id='test'> Hello world</h1>
         <img id="profile__img" src={logo} alt="profile__img"/>
         
         <p> 
