@@ -10,7 +10,10 @@ export default function Profile() {
       <center>
         <h1 id='test'> Hello world</h1>
         <img id="profile__img" src={logo} alt="profile__img"/>
-        
+        <p>
+          <h3 id='twitter'> @elonmusk </h3>
+          <h3 id='slack'> Zulu </h3>
+        </p>
         <p> 
           <p> <a id='btn__zuri' href='https://training.zuri.team/' target="blank">Zuri training</a> </p> 
           <p> <a id='books' href='http://books.zuri.team/' target="blank">Zuri books</a> </p>
