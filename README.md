@@ -77,3 +77,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 https://stackoverflow.com/questions/34582405/react-wont-load-local-images
 2.W3schools
 -helped me in circling the image and making the text-link into buttons. very helpfull with styling.
+3.Shelynna
+- after asking for help in public forums and dm'ing 2 other humans Shelynna came to my assistance as i was having trouble understanding as to whether the twitter name should be a buttonor text.
+4.Button tittle and subtitle
+https://stackoverflow.com/questions/46080872/semantic-navigation-links-with-titles-and-subtitles
