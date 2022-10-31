@@ -1,6 +1,6 @@
 import React from 'react';
-import logo from '/home/mntwana/webprofile/src/img/picture.jpg';
-import '/home/mntwana/webprofile/src/style.css';
+import logo from '/home/mntwana/webprofile/src/picture.jpg';
+import './style.css';
 
 console.log(logo);
 
