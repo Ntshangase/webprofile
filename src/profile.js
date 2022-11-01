@@ -8,8 +8,9 @@ export default function Profile() {
   return (
     <div>
       <center>
-        <h1 id='slack'> Zulu</h1>
+        
         <img id="profile__img" src={logo} alt="profile__img"/>
+        <p> <h1 id='slack'> Zulu</h1> </p>
         <p>
         <a id='twitter' href='https://twitter.com/elonmusk' target="blank">@elonmusk</a>
         </p>
