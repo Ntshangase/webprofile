@@ -1,8 +1,10 @@
 import React from 'react';
 import logo from '/home/mntwana/webprofile/src/picture.jpg';
+import slac from '/home/mntwana/webprofile/src/slack logo.png';
+import git from '/home/mntwana/webprofile/src/GitHub-logo.png'
 import './style.css';
 
-console.log(logo);
+console.log(logo,slac,git);
 
 export default function Profile() {
   return (
@@ -21,6 +23,7 @@ export default function Profile() {
           <p> <a id='pitch' href='https://background.zuri.team/' target="blank"><h4>Background Check for Coders</h4> <p>Let's clear that background so you can get that job</p></a> </p>
           <p> <a id='book__design' href='https://books.zuri.team/design-rules' target="blank"><h4>Design Books</h4> <p>The all you can Read book buffet, for free!!!</p></a> </p>
         </p>
+        <p> <img id='pic1' src={slac} alt='slack logo'></img> <img id='pic2' src={git} alt='github logo' ></img> </p>
       </center>
     </div>
   )
