@@ -18,7 +18,7 @@ class App extends React.Component {
           < Profile />
         </>
         <Nav>
-          <Link to="/contact">Contact</Link>
+          <Link to="/contact" id="contact">Contact</Link>
         </Nav>
       </Router>
     );
