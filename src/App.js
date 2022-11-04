@@ -1,13 +1,17 @@
 
+import React from "react";
 import Profile from "./profile";
 
-function App() {
-  return (
-    <>
-      < Profile />
-      <route path="/" exact render={() => <contactPage tittle={this.state.contact.tittle}/> } />
-    </>
-  );
+class App extends React.Component {
+  render () {
+    return (
+      <>
+        < Profile />
+        <route path="/" exact render={() => <contactPage tittle={this.state.contact.tittle}/> } />
+      </>
+    );
+  }
+
 }
 
 export default App;
