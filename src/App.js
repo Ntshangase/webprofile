@@ -1,29 +1,20 @@
-import { BrowserRouter as Router, Link } from "react-router-dom";
-import { Nav } from "react-bootstrap";
+import { Route, Routes } from "react-router-dom";
 import React from "react";
 import Profile from "./profile";
-
-class App extends React.Component {
-
-  constructor(props) {
-    super(props);
-    this.state = { tittle: 'contacts', path: "/contact" }
-  }
+import Contact from "./contact";
 
 
-  render() {
-    return (
-      <Router>
-        <>
-          < Profile />
-        </>
-        <Nav>
-          <Link to="/contact" id="contact">Contact</Link>
-        </Nav>
-      </Router>
-    );
-  }
+export default function App() {
 
+  return (
+    <div>
+
+      <Routes>
+      <Route path="/*" element={<Profile />} />
+      <Route path="/contact" element={<Contact />} />
+      </Routes>
+
+
+    </div>
+  )
 }
-
-export default App;

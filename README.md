@@ -81,3 +81,5 @@ https://stackoverflow.com/questions/34582405/react-wont-load-local-images
 - after asking for help in public forums and dm'ing 2 other humans Shelynna came to my assistance as i was having trouble understanding as to whether the twitter name should be a buttonor text.
 4.Button tittle and subtitle
 https://stackoverflow.com/questions/46080872/semantic-navigation-links-with-titles-and-subtitles
+4.Therapy
+-Using console for debbuging helps, and console talks to you very nicely, Makes me wonder who wrote that they must be a patient teacher. Stack overflow also helped with path="/" changed it to path="/*" which worked 100%. Dev work is hard but i enjoy it.
