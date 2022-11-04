@@ -1,4 +1,5 @@
-import {BrowserRouter as Router} from "react-router-dom";
+import { BrowserRouter as Router, Link } from "react-router-dom";
+import { Nav } from "react-bootstrap";
 import React from "react";
 import Profile from "./profile";
 
@@ -6,16 +7,19 @@ class App extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {tittle: 'contacts', path: "/contact"}
+    this.state = { tittle: 'contacts', path: "/contact" }
   }
 
 
-  render () {
+  render() {
     return (
       <Router>
         <>
-        < Profile />
-      </>
+          < Profile />
+        </>
+        <Nav>
+          <Link to="/contact">Contact</Link>
+        </Nav>
       </Router>
     );
   }
