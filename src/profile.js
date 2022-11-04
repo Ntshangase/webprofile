@@ -22,6 +22,7 @@ export default function Profile() {
           <p> <a id='book__python' href='http://books.zuri.team/python-for-beginners?ref_id=Zulu' target="blank"><h4>Python Books</h4> <p>Basic coding for you! </p></a> </p>
           <p> <a id='pitch' href='https://background.zuri.team/' target="blank"><h4>Background Check for Coders</h4> <p>Let's clear that background so you can get that job</p></a> </p>
           <p> <a id='book__design' href='https://books.zuri.team/design-rules' target="blank"><h4>Design Books</h4> <p>The all you can Read book buffet, for free!!!</p></a> </p>
+          <p> <a id='contact' href='/home/mntwana/webprofile/src/contact.js' target="blank"> <h4>contact</h4></a> </p>
         </p>
         <p> <img id='pic1' src={slac} alt='slack logo'></img> <img id='pic2' src={git} alt='github logo' ></img> </p>
       </center>
