@@ -11,7 +11,7 @@ export default function App() {
 
       <Routes>
       <Route path="/*" element={<Profile />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="https://ntshangase.github.io/webprofile/contact" element={<Contact />} />
       </Routes>
 
 
