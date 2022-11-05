@@ -118,3 +118,45 @@
     border-radius: 16px;
     width: 100%;
   }
+
+  #first_name {
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 25%;
+    margin: 4px 2px;
+    border: 1px solid #ccc;
+  }
+
+  #last_name {
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 25%;
+    margin: 4px 2px;
+    border: 1px solid #ccc;
+  }
+
+  #email {
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 40%;
+    margin: 4px 2px;
+    border: 1px solid #ccc;
+  }
+
+  #message {
+    padding: 10px 20px;
+    width: 40%;
+    margin: 4px 2px;
+    box-sizing: border-box;
+    display: block;
+    border: 1px solid #ccc;
+  }
+
+  #btn__submit {
+    padding: 10px 20px;
+    border-radius: 50px;
+    width: 40%;
+    margin: 4px 2px;
+    background-color: blue;
+  }
+
