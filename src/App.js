@@ -11,7 +11,7 @@ export default function App() {
 
       <Routes>
       <Route path="/*" element={<Profile />} />
-      <Route path="/webprofile/contact" element={<Contact />} />
+      <Route path="/Hng-first-task-linktree/contact" element={<Contact />} />
       </Routes>
 
 
