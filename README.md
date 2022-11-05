@@ -83,3 +83,5 @@ https://stackoverflow.com/questions/34582405/react-wont-load-local-images
 https://stackoverflow.com/questions/46080872/semantic-navigation-links-with-titles-and-subtitles
 4.Therapy
 -Using console for debbuging helps, and console talks to you very nicely, Makes me wonder who wrote that they must be a patient teacher. Stack overflow also helped with path="/" changed it to path="/*" which worked 100%. Dev work is hard but i enjoy it.
+Gitpage.
+-removed "homepage": "http://Ntshangase.github.io/webprofile", so that i can deploy to github
